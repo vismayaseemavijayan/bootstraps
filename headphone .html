@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./headphone.css/headphone.css">
+    </head>
+<body>
+ <!--Navbar-->
+<nav class="navbar navbar-dark bg-warning ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav text-center">
+        <a class="nav-link active " aria-current="page" href="#">home</a>
+        <a class="nav-link" href="#">Watch video</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Blocks
+          </a>
+          <ul class="dropdown-menu bg-warning text-center">
+            <li><a class="dropdown-item" href="#">Menu pages</a></li>
+            <li><a class="dropdown-item" href="#"> Headers</a></li>
+            <li><a class="dropdown-item" href="#">Sliders & Galleries</a></li>
+            <li><a class="dropdown-item" href="#">Shops</a></li>
+            <li><a class="dropdown-item" href="#">Features</a></li>
+            <li><a class="dropdown-item" href="#">Content</a></li>
+            <li><a class="dropdown-item" href="#">Info</a></li>
+            <li><a class="dropdown-item" href="#">Teams & Testimonials</a></li>
+            <li><a class="dropdown-item" href="#">Forms & Maps</a></li>
+            <li><a class="dropdown-item" href="#">Pricing Tables</a></li>
+            <li><a class="dropdown-item" href="#">Countdowns & Accordions</a></li>
+            <li><a class="dropdown-item" href="#">Tables</a></li>
+            <li><a class="dropdown-item" href="#">Social</a></li>
+            <li><a class="dropdown-item" href="#">Footer</a></li>
+          </ul>
+        </li>
+      </ul>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Demo Pages
+        </a>
+        <ul class="dropdown-menu text-center bg-warning ">
+          <li><a class="dropdown-item" href="#">Headphone Shops</a></li>
+          <li><a class="dropdown-item" href="#">Shoe Shop</a></li>
+          <li><a class="dropdown-item" href="#">Cafe</a></li>
+        </ul>
+      </li>
+    </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="card ">
+  <img width="100%" height="520px" src="data:image/jpeg;base64,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" class="card-img" alt="">
+  <div class="card-img-overlay">
+    <h6 style="bold">THINKING OF BUYING A NEW HEADPHONE?</h6>
+    <h2>Welcome to our Headphones Shop</h2>
+    <button type="button" class="btn btn-light">Shopping Now </button>
+  </div>
+  </div>
+
+    
+    
+<div class="container bg-light text-center">
+<h1>finding a good headphones is not easy</h1>
+<p text-center>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae enim sapiente sequi iste repudiandae veritatis libero nulla doloremque odio, voluptatum minima hic laboriosam maiores nobis autem facere expedita. Voluptates, quasi!</p>
+</div>
+<br>
+<div class="container-fluid bg-warning text-center p-5">
+<h1>WE WILL HELP YOU TO CHOOSE THE BEST HEADPHONE</h1>
+<br>
+</div>
+<h3>Hottest headphones of the month</h3>
+<div class="row ms-2 mt-3">
+    <div class="col-3"><div class="card" style="width: 18rem;">
+        <img width="100%" height="200px" src="https://m.media-amazon.com/images/I/4198pXWIGGL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-warning">
+          <h5 class="card-title">Zebronics Zeb-Bang pro Headphone</h5>
+          <p class="card-text">ZEB-Bang Pro is a wireless headphone with a foldable design that is comfortable and looks dapper with its style. Feel every note and beat on the ZEB-Bang Pro wireless headphone, as it comes with deep bass. Get chatty with the voice assistant support for Android/iOS.</p>
+          <p><b>Price is 3500rs</b></p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div></div>
+    <div class="col-3 "><div class="card" style="width: 18rem; ">
+        <img width="100%" height="200px"  src="https://www.promotionalwears.com///image/catalog/data/JBL/headphones/jbltune520bt.png" class="card-img-top" alt="...">
+        <div class="card-body bg-warning">
+          <h5 class="card-title">JBL T450BT Headphone</h5>
+          <p class="card-text">They're flat-folding, lightweight, comfortable and compact. Under the hood, a pair of 32mm drivers punch out some serious bass .Our earbuds are in different shapes but the quality is same.JBL is one of the brands to be reckoned with when it comes to headphones that offer superior sound quality.It is one of the best brand.</p>
+          <p><b>Price is 4500rs</b></p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div></div>
+      <div class="col-3"><div class="card" style="width: 18rem;">
+        <img width="100%" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZLszv7dsKPBoLfoPtM0lreZ4bJiCuOCH6A&s" class="card-img-top" alt="...">
+        <div class="card-body bg-warning">
+          <h5 class="card-title">LOGITECH G733</h5>
+          <p class="card-text">G733 is wireless and designed for comfort. And it's outfitted with all the surround sound, voice filters, and advanced lighting you need to look, sound, and play with more style than ever..</p>
+          <p><b>Price is 3800rs</b></p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div></div>
+      <div class="col-3"><div class="card" style="width: 18rem;">
+        <img width="100%" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYmU4HDYT7qO0UfA-cQTISkvAKXVTiAZLiZQ&s" class="card-img-top" alt="...">
+        <div class="card-body bg-warning">
+          <h5 class="card-title">BOAT</h5>
+          <p class="card-text">BOAT is wireless and designed for comfort. And it's outfitted with all the surround sound, voice filters, and advanced lighting you need to look, sound, and play with more style than ever.</p>
+          <p><b>Price is 4000rs</b></p>
+          <a href="#" class="btn btn-primary">BUY NOW</a>
+        </div>
+      </div></div>
+     <br><br><br>
+     <!-- <h3>here is our new headphones</h3>
+      <div class="card">
+      <img width="300px" height="400px" src="https://images.everydayhealth.com/images/emotional-health/why-sad-music-makes-us-feel-so-good-alt-1440x810.jpg?sfvrsn=dad4fb8a_1" alt=""><img width="300px" height="400px" src="https://thumbs.wbm.im/pw/small/a75b3384faa0dc8792fdb3ba7ce43cc9.jpg" alt="">
+    </div> -->
+       
+      <!-- <img width="300px" height="400px" src="https://thumbs.wbm.im/pw/small/a75b3384faa0dc8792fdb3ba7ce43cc9.jpg" alt="">
+      </div> -->
+      <!-- <section id="headphone">
+        <h3><i class="fa-solid fa-laptop" style="color: blueviolet;"></i> projects</h3> -->
+        <!-- <div class="gallery">
+         <img width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img1">
+         <img  width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img2">
+         <img  width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img3">
+         <img  width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img4">
+         <img  width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img5">
+         <img width="00px" height="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img6">
+         <img width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img7">
+         <img width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYCha9g1wKV726rrGXr-YmHkWA7KL9-KmAQ&s" alt="img8">
+        </div>
+        -->
+<!--       </section> -->
+<section id="shops" class="bg-light p-5">
+  <h2 class=" pt-5">Meet Our New Headphones🔥</h2>
+   
+     <div class="container contNew mt-5">
+       <div class="row">
+         <div class="col-md-3 mb-4">
+             <div class="cardNew">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrf7ahbQTOylAdinjL1yDyEr5777DOagqzx1j95wmXVNzxnOHAWkxDHZblFOR4a_y0uqo&usqp=CAU" class="card-img-top" alt="...">
+                 <i class="fa-solid fa-plus icon"></i>
+                 <div class="cardNew-caption">Type caption here</div>
+             </div>
+         </div>
+         <div class="col-md-3 mb-4">
+             <div class="cardNew">
+                 <img src="https://st2.depositphotos.com/3917667/43840/i/450/depositphotos_438405682-stock-photo-portrait-of-young-caucasian-man.jpg" class="card-img-top" alt="...">
+                 <i class="fa-solid fa-plus icon"></i>
+                 <div class="cardNew-caption">Type caption here</div>
+             </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="cardNew">
+                    <img src="https://img.freepik.com/free-photo/positive-woman-with-natural-curly-hair-dances-carefree-makes-triumph-dance-smiles-broadly-enjoys-listening-audio-track-via-wireless-headphones_273609-52268.jpg" class="card-img-top" alt="...">
+                    <i class="fa-solid fa-plus icon"></i>
+                    <div class="cardNew-caption">Type caption here</div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="cardNew">
+                    <img src="https://img.freepik.com/free-photo/portrait-young-beautiful-woman-gesticulating_273609-40252.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1707609600&semt=ais" class="card-img-top" alt="...">
+                    <i class="fa-solid fa-plus icon"></i>
+                    <div class="cardNew-caption">Type caption here</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container contNew  "> 
+          <div class="row mb-5">
+            <div class="col-md-3   mb-4">
+                <div class="cardNew">
+                    <img src="https://img.freepik.com/premium-photo/pensive-attractive-black-teenage-girl-with-wireless-headphones-around-neck-pointing-up-while-having-creative-idea-bright-background_274679-14213.jpg" class="card-img-top" alt="...">
+                    <i class="fa-solid fa-plus icon"></i>
+                    <div class="cardNew-caption">Type caption here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <div class="cardNew">
+                          <img src="https://st2.depositphotos.com/5228995/11228/i/450/depositphotos_112286628-stock-photo-woman-listens-and-enjoys-the.jpgt" class="card-img-top" alt="...">
+                          <i class="fa-solid fa-plus icon"></i>
+                          <div class="cardNew-caption">Type caption here</div>
+                      </div>
+                  </div>
+                     
+                    <div class="col-md-3 mb-4">
+                        <div class="cardNew">
+                            <img src="https://st3.depositphotos.com/1007712/35783/i/450/depositphotos_357833296-stock-photo-man-headphones-studio-background.jpg" class="card-img-top" alt="...">
+                            <i class="fa-solid fa-plus icon"></i>
+                            <div class="cardNew-caption">Type caption here</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="cardNew">
+                            <img src="https://img.freepik.com/premium-photo/wireless-headphones-deliver-clean-sound-modern-technology-hipster-happy-using-modern-wireless-headphones-freedom-going-wireless-offers-you-is-unparalleled-bearded-man-listen-music-wireless-gadget_474717-2900.jpg?size=626&ext=jpg" class="card-img-top" alt="...">
+                            <i class="fa-solid fa-plus icon"></i>
+                            <div class="cardNew-caption">Type caption here
+                              <div class="cardNew-caption">Type caption here</div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    
+                    
+            
+                 </div>
+              </div>
+            </section>
+          <!-- pre-order section -->
+           <section class="bg-light">
+            <div class="">
+              <div class="bg-warning ">
+    
+              
+              <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-5 text-light pt-5">
+                  <h4>HURRY UP THE OFFER US LIMITED</h4>
+                </div>
+                <div class="col-4 text-light pt-5">
+                  <button type="button" class="btn btn-light rounded-pill">Learn More</button>
+                </div>
+              </div>
+              <div class="row ml-5">
+                <div class="col-3"></div>
+                <div class="col-5 text-light pb-5">
+                  <H1>Like it? Pre_order and get a discount</H1>
+                </div>
+              </div>
+            </div>
+            <div class=" m-0 p-5 bg-light">
+              <h1 class="text-center  text-dark">Why do you have to buy headphones only for us?</h1>
+            </div>
+          </div>
+  
+  
+            <!-- card:shy do you -->
+            <div class="row p-5">
+              <div class="col-md-3">
+                <div class="card" style="width: 20rem;">
+                    <div class="buyForUs1 p-3"><h1>High Quality</h1></div>
+                      <div class="card-body">
+                        
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio, vel odit provident, minima modi sunt libero aut consequatur qui delectus blanditiis soluta excepturi ducimus officiis error assumenda amet nulla.</p>
+                        <a href="#" class="text-warning">Learn More...</a>
+                      </div>
+                  </div>
+                </div>
+              <div class="col-md-3">
+                <div class="card" style="width:  20rem;">
+                    <div class="buyForUs2 p-3"><h1>ORIGINAL DEVICES</h1></div>
+                      <div class="card-body">
+                        
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio, vel odit provident, minima modi sunt libero aut consequatur qui delectus blanditiis soluta excepturi ducimus officiis error assumenda amet nulla.</p>
+                        <a href="#" class="text-warning">Learn More...</a>
+                      </div>
+                  </div>
+                </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 20rem;">
+                    <div class="buyForUs3 p-3"><h1>YEAR WARRENTY</h1></div>
+                      <div class="card-body">
+                        
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio, vel odit provident, minima modi sunt libero aut consequatur qui delectus blanditiis soluta excepturi ducimus officiis error assumenda amet nulla.</p>
+                        <a href="#" class="text-warning">Learn More...</a>
+                      </div>
+                  </div>
+                </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 20rem;">
+                    <div class="buyForUs4"><h1>WEEK TO CHECK</h1></div>
+                      <div class="card-body">
+                        
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odio, vel odit provident, minima modi sunt libero aut consequatur qui delectus blanditiis soluta excepturi ducimus officiis error assumenda amet nulla.</p>
+                        <a href="#" class="text-warning">Learn More...</a>
+                      </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+
+            <h4 class="text-center mt-5 pt-5">STILL NOT CONVINCED?</h4>
+            <H2 class="text-center pb-5">Visit us and see yourself!</H2>
+           </section>
+           <!-- footer -->
+            <footer id="footer">
+              <!-- map -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15716.42831420742!2d76.32970655!3d10.008013349999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1718141983710!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    
+              <div class="footer">
+                <footer class="bg-body-tertiary text-center">
+                  <!-- Grid container -->
+    
+                  <div class="row">
+                    <div class="col-3 p-5">
+                      <img style="width: 70px;" src="https://st5.depositphotos.com/29094582/66194/i/450/depositphotos_661947268-stock-photo-wireless-headphones-yellow-background-top.jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                      <div class="text-center p-5">
+                        © 2024 All Rights Reserved Terms of Use anf Privacy Policy
+                        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                      </div>
+                      <!-- Copyright -->
+                        </div>
+                        <div class="col-4">
+                      <div class="container p-5 pb-0">
+                        <!-- Section: Social media -->
+                        <section class="mb-4">
+                          <!-- Facebook -->
+                          <a
+                          data-mdb-ripple-init
+                            class="btn text-white btn-floating m-1"
+                            style="background-color: #ffb509;"
+                            href="#!"
+                            role="button">
+                            <i class="fa-brands fa-facebook" style="color: #FFD43B;"></i>
+                            </a>
+                           <!-- Twitter -->
+                  <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #ffb509;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color:  #ffb509;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #ffb509;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                    ></a>
+              
+                    <!-- Linkedin -->
+                    <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color:  #ffb509;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <!-- Github -->
+                    <a
+                      data-mdb-ripple-init
+                      class="btn text-white btn-floating m-1"
+                      style="background-color: #ffb509;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </section>
+                  <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+              </div>
+                </div>
+  
+                    
+        
+            </footer>
+          </div>
+        </footer>
+     
+<!-- 
+  </div> -->
+
+
+    
+    </body>
+</html>

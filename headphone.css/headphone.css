@@ -1,0 +1,137 @@
+*{
+    font-family: "Teko", sans-serif;
+     
+}
+
+.banner{
+background-image: url(https://c4.wallpaperflare.com/wallpaper/800/486/460/headphones-yellow-background-hd-5k-wallpaper-preview.jpg);
+height: 60rem;
+background-repeat: no-repeat;
+background-size: cover ;
+
+}
+body{
+overflow-x: hidden;
+background: rgb(255,187,0);
+background: linear-gradient(90deg, rgb(255, 200, 0) 0%, #f8e35a 31%, #f8e35a 49%, #f8e35a 68%,rgb(255, 200, 0) 100%);
+}
+.banner .row{
+padding-top: 22rem;
+padding-left: 5rem;
+}
+.text1 {
+background-image: url(https://m.media-amazon.com/images/I/4198pXWIGGL._SX300_SY300_QL70_FMwebp_.jpg);
+background-size: cover;
+height: 19rem;
+}
+.text2 {
+    background-image: url(https://www.promotionalwears.com///image/catalog/data/JBL/headphones/jbltune520bt.png);
+    background-size: cover;
+    height: 19rem;
+    }
+    .text3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZLszv7dsKPBoLfoPtM0lreZ4bJiCuOCH6A&s);
+    background-size: cover;
+    height: 19rem;
+    }
+    .text4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYmU4HDYT7qO0UfA-cQTISkvAKXVTiAZLiZQ&s);
+    background-size: cover;
+    height: 19rem;
+    }
+    .contNew{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem; 
+    }
+    .cardNew {
+    position:relative; 
+    width: 18rem; 
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    .cardNew img {
+        transition: filter 0.3s;
+        width: 100%;
+        height: auto;
+        }
+        .cardNew .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        transition: opacity 0.3s;
+        }
+        .cardNew:hover .icon {
+        opacity: 1;
+        }
+        .cardNew:hover img {
+        filter: blur(5px);
+        }
+        .cardNew-caption {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: white;
+        font-size: 1.2rem;
+        opacity: 0;
+        transition: opacity 0.3s;
+        }
+        .cardNew:hover .cardNew-caption {
+            opacity: 1;
+        }
+        
+        .buyForUs1{
+        background-image: url(https://www.shutterstock.com/image-vector/simple-racing-start-number-01-260nw-2135058571.jpg);
+        background-size: cover;
+        height: 19rem;
+        }
+        .buyForUs2{
+        background-image: url(https://www.shutterstock.com/image-vector/simple-racing-start-number-02-260nw-2135058651.jpg);
+        background-size: cover;
+        height: 19rem;
+        }
+        .buyForUs3{
+        background-image: url(https://www.shutterstock.com/image-vector/simple-racing-start-number-03-260nw-2135058555.jpg);
+        background-size: cover;
+        height: 19rem;
+        }
+        .buyForUs4{
+        background-image: url(https://www.shutterstock.com/image-vector/simple-racing-start-number-04-260nw-2135058573.jpg);
+        background-size: cover;
+        height: 19rem;
+        }
+        .buyForUs1 h1{
+        margin-top: 122px;
+        border-color: rgb(238, 234, 234);
+        color: rgb(242, 192, 64);
+        text-shadow: 2px 2px 4px #d80000;
+        
+        }
+        .buyForUs2 h1{
+        margin-top: 122px;
+        border-color: rgb(238, 234, 234);
+        color: rgb(242, 192, 64);
+        text-shadow: 2px 2px 4px #d80000;
+        
+        }
+        .buyForUs3 h1{
+        margin-top: 122px;
+        
+        border-color: rgb(238, 234, 234);
+        color: rgb(242, 192, 64);
+        text-shadow: 2px 2px 4px #d80000;
+        
+        }
+        .buyForUs4 h1{
+        margin-top: 140px;
+        margin-left: 10px;
+        border-color: rgb(238, 234, 234);
+        color: rgb(242, 192, 64);
+        text-shadow: 2px 2px 4px #d80000;
+        
+        }                    
